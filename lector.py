@@ -37,32 +37,32 @@ def calculo(cantidad, nota):
 
 # mejor promedio en matematicas
 if calculo(cantidad, am) > calculo(cantidad, bm) and calculo(cantidad, am) > calculo(cantidad, cm):
-    print('El colegio A tiene el mejor promedio en matematicas')
+    print(f'El colegio A tiene el mejor promedio en matematicas {calculo(cantidad, am)}')
 elif calculo(cantidad, bm) > calculo(cantidad, am) and calculo(cantidad, bm) > calculo(cantidad, cm):
-    print('El colegio B tiene el mejor promedio en matematicas')
+    print(f'El colegio B tiene el mejor promedio en matematicas {calculo(cantidad, bm)}')
 elif calculo(cantidad, cm) > calculo(cantidad, am) and calculo(cantidad, cm) > calculo(cantidad, bm):
-    print('El colegio C tiene el mejor promedio en matematicas')
+    print(f'El colegio C tiene el mejor promedio en matematicas {calculo(cantidad, cm)}')
 else:
     print('Los colegios tienen el mismo promedio en matematicas')
 
 # mejor promedio en español
 if calculo(cantidad, ae) > calculo(cantidad, be) and calculo(cantidad, ae) > calculo(cantidad, ce):
-    print('El colegio A tiene el mejor promedio en español')
+    print(f'El colegio A tiene el mejor promedio en español {calculo(cantidad, ae)}')
 elif calculo(cantidad, be) > calculo(cantidad, ae) and calculo(cantidad, be) > calculo(cantidad, ce):
-    print('El colegio B tiene el mejor promedio en español')
+    print(f'El colegio B tiene el mejor promedio en español {calculo(cantidad, be)}')
 elif calculo(cantidad, ce) > calculo(cantidad, ae) and calculo(cantidad, ce) > calculo(cantidad, be):
-    print('El colegio C tiene el mejor promedio en español')
+    print(f'El colegio C tiene el mejor promedio en español {calculo(cantidad, ce)}')
 else:
     print('Los colegios tienen el mismo promedio en español')
 
 
 # mejor promedio en ingles
 if calculo(cantidad, ai) > calculo(cantidad, bi) and calculo(cantidad, ai) > calculo(cantidad, ci):
-    print('El colegio A tiene el mejor promedio en ingles')
+    print(f'El colegio A tiene el mejor promedio en ingles {calculo(cantidad, ai)}')
 elif calculo(cantidad, bi) > calculo(cantidad, ai) and calculo(cantidad, bi) > calculo(cantidad, ci):
-    print('El colegio B tiene el mejor promedio en ingles')
+    print(f'El colegio B tiene el mejor promedio en ingles {calculo(cantidad, bi)}')
 elif calculo(cantidad, ci) > calculo(cantidad, ai) and calculo(cantidad, ci) > calculo(cantidad, bi):
-    print('El colegio C tiene el mejor promedio en ingles')
+    print(f'El colegio C tiene el mejor promedio en ingles {calculo(cantidad, ci)}')
 else:
     print('Los colegios tienen el mismo promedio en ingles')
 
